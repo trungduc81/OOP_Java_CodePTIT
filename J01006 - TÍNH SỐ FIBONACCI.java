@@ -2,7 +2,7 @@ import java.util.Scanner ;
 
 public class NewClass {
     public static void fi(long[] fibo){
-        fibo[0] = fibo[1] = 1 ; 
+        fibo[0] = 0 ;  fibo[1] = 1 ; 
         for(int i =2 ; i < 92 ; i++){
             fibo[i] = fibo[i-1] + fibo[i-2] ; 
         }
