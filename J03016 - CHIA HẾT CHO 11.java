@@ -8,7 +8,7 @@ public class Main {
         while(t-- > 0){
             String s = sc.next() ; 
             BigInteger num = new BigInteger(s) ; 
-            if(num.mod(BigInteger.valueOf(11)) == BigInteger.ZERO){
+            if(num.mod(BigInteger.valueOf(11)).equals(BigInteger.ZERO)){
                 System.out.println("1");
             }
             else System.out.println("0");
