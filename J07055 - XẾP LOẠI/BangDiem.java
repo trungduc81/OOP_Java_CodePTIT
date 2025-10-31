@@ -34,7 +34,7 @@ public class BangDiem implements Comparable<BangDiem> {
 
     @Override
     public int compareTo(BangDiem x) {
-        return Float.compare(x.tongKet, this.tongKet); // giảm dần
+        return Float.compare(x.tongKet, this.tongKet); 
     }
 
     @Override
